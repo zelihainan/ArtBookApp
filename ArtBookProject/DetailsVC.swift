@@ -61,6 +61,12 @@ class DetailsVC: UIViewController, UIImagePickerControllerDelegate, UINavigation
             {
             print("Error saving context \(error)")
         }
+        
+        NotificationCenter.default.post(name: NSNotification.Name("newData"), object: nil)
+        
+        self.navigationController?.popViewController(animated: true)
+
+        
     }
     
     @objc func hideKeyboard() {
