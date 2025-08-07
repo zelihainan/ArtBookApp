@@ -102,6 +102,7 @@
                         <outlet property="artistText" destination="7Xz-nm-d3z" id="MYf-dZ-lyq"/>
                         <outlet property="imageView" destination="MVV-Ny-6uu" id="4ks-An-g0F"/>
                         <outlet property="nameText" destination="IKu-4B-yyN" id="Wzs-QT-PCG"/>
+                        <outlet property="saveButton" destination="WKA-VR-8oL" id="kLp-Dg-inD"/>
                         <outlet property="yearText" destination="5tM-KR-Dm5" id="Igd-cN-f84"/>
                     </connections>
                 </viewController>
